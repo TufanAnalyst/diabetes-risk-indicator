@@ -28,7 +28,6 @@ Built a `ColumnTransformer` to handle preprocessing consistently, then wrapped i
 
 **Model Comparison**
 Trained and compared five models via 5-fold stratified cross-validation:
-- Logistic-style baseline
 - MLP (Neural Network)
 - Random Forest
 - HistGradientBoosting
@@ -80,6 +79,7 @@ Python, pandas, NumPy, scikit-learn, CatBoost, matplotlib, seaborn
 
 ## Project Structure
 
+\`\`\`
 diabetes-risk-indicator/
 ├── data/
 │   └── diabetes.csv
@@ -96,7 +96,7 @@ diabetes-risk-indicator/
 │   └── confusion_matrix.png
 ├── requirements.txt
 └── README.md
-
+\`\`\`
 
 
 
