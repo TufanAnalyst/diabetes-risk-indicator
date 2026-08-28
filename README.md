@@ -53,51 +53,59 @@ Rather than relying on the default 0.5 classification cutoff, I tested a range o
 | ROC-AUC | 0.95 |
 
 ### Confusion Matrix
-
-
+![Confusion Matrix](images/confusion_matrix.png)
 
 ## Exploratory Visuals
 
 **1. Target Class Balance**
-
+![Target Class Balance](images/01_target_balance.png)
 
 **2. Correlation Heatmap**
-
+![Correlation Heatmap](images/02_correlation_heatmap.png)
 
 **3. Glucose Distribution by Outcome**
-
+![Glucose Distribution by Outcome](images/03_glucose_distribution.png)
 
 **4. Glucose vs BMI (bubble size = Age)**
-
+![Glucose vs BMI](images/04_glucose_bmi_scatter.png)
 
 **5. Diabetes Rate by Age Group and BMI Category**
+![Diabetes Rate by Age Group and BMI Category](images/05_diabetes_rate_age_bmi.png)
 
 
 ## Tech Stack
 
 Python, pandas, NumPy, scikit-learn, CatBoost, matplotlib, seaborn
 
-## Project Structure
 
-\`\`\`
-diabetes-risk-indicator/
+<h2><a class="anchor" id="project-structure"></a>📁 Project Structure</h2>
+
+```
+Predictive-maintenance/
+│
 ├── data/
 │   └── diabetes.csv
+│
+├── images/
+│   ├── 01_target_balance.PNG
+│   ├── 02_correlation_heatmap.PNG
+│   └── 03_glucose_distribution.PNG
+│   ├── 04_glucose_bmi_scatter.PNG
+│   ├── 05_diabetes_rate_age_bmi.PNG
+│   └── confusion_matrix.PNG
+│
 ├── model/
-│   └── catboost_diabetes_model.pkl
+│   └── catboost_diabetes_model.joblib
+│
 ├── notebook/
 │   └── diabetes_risk_predictor.ipynb
-├── images/
-│   ├── 01_target_balance.png
-│   ├── 02_correlation_heatmap.png
-│   ├── 03_glucose_distribution.png
-│   ├── 04_glucose_bmi_scatter.png
-│   ├── 05_diabetes_rate_age_bmi.png
-│   └── confusion_matrix.png
+│
 ├── requirements.txt
 └── README.md
-\`\`\`
+```
+> Adjust folder/file names above to match your actual repo layout.
 
+---
 
 
 
