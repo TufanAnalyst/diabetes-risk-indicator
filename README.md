@@ -53,24 +53,24 @@ Rather than relying on the default 0.5 classification cutoff, I tested a range o
 | ROC-AUC | 0.95 |
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.PNG)
 
 ## Exploratory Visuals
 
 **1. Target Class Balance**
-![Target Class Balance](images/01_target_balance.png)
+![Target Class Balance](images/01_target_balance.PNG)
 
 **2. Correlation Heatmap**
-![Correlation Heatmap](images/02_correlation_heatmap.png)
+![Correlation Heatmap](images/02_correlation_heatmap.PNG)
 
 **3. Glucose Distribution by Outcome**
-![Glucose Distribution by Outcome](images/03_glucose_distribution.png)
+![Glucose Distribution by Outcome](images/03_glucose_distribution.PNG)
 
 **4. Glucose vs BMI (bubble size = Age)**
-![Glucose vs BMI](images/04_glucose_bmi_scatter.png)
+![Glucose vs BMI](images/04_glucose_bmi_scatter.PNG)
 
 **5. Diabetes Rate by Age Group and BMI Category**
-![Diabetes Rate by Age Group and BMI Category](images/05_diabetes_rate_age_bmi.png)
+![Diabetes Rate by Age Group and BMI Category](images/05_diabetes_rate_age_bmi.PNG)
 
 
 ## Tech Stack
